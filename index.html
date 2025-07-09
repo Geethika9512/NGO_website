@@ -1,0 +1,98 @@
+  <!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Plantevo Foundation - Home</title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+  <header>
+    <div class="logo"><i class="fas fa-sun"></i> Plantevo</div>
+    <div class="theme-toggle" onclick="toggleTheme()" title="Toggle Dark Mode">🌓</div>
+    <div class="hamburger" onclick="toggleMenu()">☰</div>
+  </header>
+
+  <nav id="navbar">
+    <a href="#">Home</a>
+    <a href="#about">About</a>
+    <a href="#projects">Projects</a>
+    <a href="#donate">Donate</a>
+    <a href="#volunteer">Volunteer</a>
+    <a href="#stories">Stories</a>
+    <a href="#contact">Contact</a>
+  </nav>
+
+  <section class="hero" data-aos="zoom-in">
+    <h1 style="font-size: 40px;">Small Steps, Big Impact</h1>
+    <p> Together, we can build a greener tomorrow.</p>
+    <a href="#donate" class="btn sparkle"><i class="fas fa-hand-holding-heart"></i> Donate</a>
+    <a href="#volunteer" class="btn-secondary sparkle"><i class="fas fa-people-carry"></i> Volunteer</a>
+  </section>
+
+  <section id="about" data-aos="fade-up">
+    <h1 style="font-family:Comic Sans MS"><u>About Plantevo</u></h1>
+    <p> Planatova is a nature-driven non-profit organization committed to restoring ecological balance, promoting green lifestyles, and inspiring sustainable living. Founded with a vision to reconnect humanity with nature, we believe that even a small plant can spark big change.
+
+<br>🌱 Mission:
+To protect, restore, and nurture the environment through community-driven actions, education, and innovation.</p>
+  </section>
+
+  <section id="projects" data-aos="fade-up">
+    <h2>Our Current Projects</h2>
+    <div class="cards">
+      <div class="card" data-aos="zoom-in">🌱 Eco-Awareness Drives</div>
+      <div class="card" data-aos="zoom-in">🚯 Zero Plastic Campaign</div>
+      <div class="card" data-aos="zoom-in">🌍 Renewable Energy Workshops</div>
+    </div>
+  </section>
+
+  <section id="donate" data-aos="fade-up">
+    <h2>Support the Movement</h2>
+    <form>
+      <input type="text" placeholder="Your Name" required />
+      <input type="email" placeholder="Email Address" required />
+      <input type="number" placeholder="Amount (INR)" required />
+      <button type="submit"><i class="fas fa-seedling"></i> Contribute</button>
+    </form>
+  </section>
+
+  <section id="volunteer" data-aos="fade-up">
+    <h2>Become a Changemaker</h2>
+    <form>
+      <input type="text" placeholder="Name" required />
+      <input type="text" placeholder="Skills" />
+      <textarea placeholder="Why do you want to volunteer?"></textarea>
+      <button type="submit">Join Us</button>
+    </form>
+  </section>
+
+  <section id="stories" data-aos="fade-up">
+    <h2>Impact Stories</h2>
+    <blockquote>
+      "Being a part of Plantevo transformed how I view nature and service."
+      <footer>–Geethika , Volunteer</footer>
+    </blockquote>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <h2>Connect with Us</h2>
+    <form>
+      <input type="email" placeholder="Your Email" />
+      <textarea placeholder="Your Message"></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </section>
+
+  <footer>
+    <p>© 2025 Plantevo Foundation. All rights reserved.</p>
+  </footer>
+
+  <button id="topBtn" title="Go to top">⬆</button>
+
+  <script src="https://cdn.jsdelivr.net/npm/aos@2.3.4/dist/aos.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
